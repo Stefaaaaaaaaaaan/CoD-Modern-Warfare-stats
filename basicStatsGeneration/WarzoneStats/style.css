@@ -1,0 +1,285 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 400px;
+  font-family: fontssindshit;
+}
+@font-face {
+  font-family: fontssindshit;
+  src: url(../fontfile/rajdhani-medium.ttf);
+}
+#backgroundImg{
+  position: absolute;
+  height: auto;
+  width: 400px;
+  filter: brightness(50%);
+}
+.profilePic{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border: .25rem solid #efefef;
+  border-radius: 50%;
+  top: 25px;
+  left: 10px;
+}
+.header{
+  position: absolute;
+  width: 400px;
+  height: 70px;
+  top: 130px;
+  background-color: #2D3640;
+}
+#nameTag{
+  position: absolute;
+  color: #efefef;
+  top: 35px;
+  left: 110px;
+}
+.timeNumber{
+  position: absolute;
+  text-align: right;
+  padding-top: 13px;
+  right: 120px;
+
+  color: rgba(217, 235, 255, 0.75);
+}
+#playTime{
+  position: fixed;
+  top: 127px;
+  padding-left: 290px;
+  color: rgba(217, 235, 255, 0.75);
+}
+.matchnumber{
+  position: relative;
+  float: right;
+  padding-top: 36px;
+  right: 120px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#matches{
+  position: fixed;
+  padding-top: 20px;
+  padding-left: 290px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#overView{
+  padding-left: 15px;
+  position: fixed;
+  color: #F5F5F5;
+}
+#levelContent{
+  position: absolute;
+  padding-left: 120px;
+  color: #efefef;
+}
+#levelNumber{
+  position: absolute;
+  left: 172px;
+  top: 20px;
+  color: #efefef;
+}
+.level{
+  position: fixed;
+  top: 200px;
+  width: 400px;
+  height: 90px;
+  background-image: linear-gradient(90deg, #192d4d, #2a4e55);
+}
+.level img{
+  position: absolute;
+  height: auto;
+  width: 90px;
+  left: 20px;
+}
+#progressbar {
+  position: relative;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 2px;
+  width: 100px;
+  left: 120px;
+  top: 44px;
+}
+
+#progressbar>#progressbarContent {
+  background-image: linear-gradient(90deg, #665c33, #cbb765);
+  width: 70%;
+  height: 10px;
+  border-radius: 8px;
+}
+#progression{
+  padding-top: 30px;
+  padding-left: 120px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#progressionNum{
+  position: absolute;
+  left: 250px;
+  top: 60px;
+  color: rgba(217, 235, 255, 0.75);
+}
+
+.content{
+  top: 290px;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-color: #2D3640;
+}
+#kd{
+  position: absolute;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  background-color: #3B4754;
+  left: 45px;
+  top: 10px;
+}
+#kdtext{
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#kdnum{
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  color: #efefef;
+}
+#kills{
+  position: absolute;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  background-color: #3B4754;
+  left: 205px;
+  top: 10px;
+}
+#killtext{
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#killsnum{
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  color: #efefef;
+}
+#winpercent{
+  position: absolute;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  background-color: #3B4754;
+  left: 45px;
+  top: 80px;
+}
+#winpertext{
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#winperNum{
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  color: #efefef;
+}
+#wins{
+  position: absolute;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  background-color: #3B4754;
+  left: 205px;
+  top: 80px;
+}
+#wintext{
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#winNum{
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  color: #efefef;
+}
+#killstreaktxt{
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#killstreakNum{
+  position: absolute;
+  top: 163px;
+  left: 50px;
+  color: #efefef;
+}
+#lossestxt{
+  position: absolute;
+  top: 145px;
+  left: 210px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#lossesNum{
+  position: absolute;
+  top: 163px;
+  left: 210px;
+  color: #efefef;
+}
+#Deathstxt{
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#DeathsNum{
+  position: absolute;
+  top: 208px;
+  left: 50px;
+  color: #efefef;
+}
+#avgLifetxt{
+  position: absolute;
+  top: 190px;
+  left: 210px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#avgLifeNum{
+  position: absolute;
+  top: 208px;
+  left: 210px;
+  color: #efefef;
+}
+#assiststxt{
+  position: absolute;
+  top: 240px;
+  left: 50px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#assistsNum{
+  position: absolute;
+  top: 258px;
+  left: 50px;
+  color: #efefef;
+}
+#scoretxt{
+  position: absolute;
+  top: 240px;
+  left: 210px;
+  color: rgba(217, 235, 255, 0.75);
+}
+#scoreNum{
+  position: absolute;
+  top: 258px;
+  left: 210px;
+  color: #efefef;
+}
